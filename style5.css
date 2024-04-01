@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "logonig";
+    src: url(SF\ TransRobotics\ Bold.ttf);
+}
+/* colors
+yellow = ffff53
+violet = 2f2d9a
+pink = caa3be
+orange = c26430
+gray = dedede ebe9ea
+brown = b98754
+*/
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+
+section {
+    width:960px; 
+    height:600px;
+    position:relative;
+    display:inline-block;
+    margin:0px;
+    padding: 0px;
+    color: black;
+
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    text-align: justify;
+    padding-left: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin: 0px;
+}
+
+footer p {
+    font-size: 0.6em;
+    color: ebe9ea;
+    display: flex;
+}
+
+.footnav {
+    font-size: 0.5em;
+    display: flex;
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footnav li {
+    display: flex;
+    margin-left: 50px;
+}
+
+.headerleft{
+    text-align: left;
+    display: flex;
+    align-items:center;
+}
+
+h1 {
+    display: inline;
+    height: 80px;
+    line-height: 80px;
+}
+
+.logonig {
+    font-family: logonig;
+    font-size: 5em;
+    color: #ffff53;
+    
+}
+
+.logonign {
+    font-family: logonig;
+    font-size: 5em;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    height: 20px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+ul li {
+    font-size: 1.1em;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+/* 
+*{
+    border: red 1px solid;
+}
+*/
+.header2 {
+    width: 960px;
+    height: 100px;
+    background-image: url(media/headbg.jps);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.header2 h1{
+    font-size: 3em;
+    font-weight:900;
+    color: black;
+    line-height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+.register{
+    width: 960px;
+    height: 500px;
+    color: black;
+    background-color: #dedede;
+}
+table{
+    color: black;
+    padding: 20px;
+}
+
+table td{
+    margin-left: 100px;
+}
+
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.purchase {
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+  
+}
+.purchase h3{
+margin: 0 auto;
+width: 80px;
+border-radius: 5px;
+background-color: white;
+}
+.purchase h3 a{
+text-decoration: none;
+color: black;
+}
+.purchase h3 a:hover{
+color: rgb(226, 215, 52);
+}
